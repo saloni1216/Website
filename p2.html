@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Website</title>
+        <div class="container">
+          <p>Page layout method</p>
+          <li><a href="All.html">All</a></li>
+          <li><a href="practice.html">Page</a></li>
+          <li><a href="image element.html">Image</a></li>
+          <li><a href="About me.html">News</a></li>
+          <li><a href="contact me.html">More</li>
+         </div>
+        <style>
+            div{
+                display: inline;
+                width: 50%;
+            }
+            
+            body{
+                background-color:aquamarine;
+            }
+            @media (min-width: 319px) and (max-width: 480px) {
+      body {
+        background-color: lightsalmon;
+      }
+    }
+
+    @media (min-width: 481px) and (max-width: 581px) {
+      body {
+        background-color: powderblue;
+      }
+    }
+
+    @media (min-width: 581px) and (max-width: 781px) {
+      body {
+        background-color: limegreen;
+      }
+    }
+
+    @media (min-width: 781px) {
+      body {
+        background-color: seagreen;
+      }
+    }
+            .green-solution{
+                float: left;
+            }
+           
+            .construction-work{
+                position: relative;
+                float: right;
+                margin-top: 10%;
+            }
+            
+            img{
+                float: right;
+                border: 30px solid black ;
+            }
+            img{
+                float: left;
+                border: 10px solid black ;
+                
+            }
+            footer {
+      clear: both;
+      text-align: right;
+      margin-bottom: 150px;
+      bottom: 3px;
+bottom: 2.4em;
+bottom: 10%;
+bottom: auto;
+bottom: inherit;
+bottom: initial;
+bottom: revert;
+bottom: revert-layer;
+bottom: unset;
+    
+    }
+    .black-text{
+        color: black;
+       
+        
+    }
+    p{
+        font-weight: 700;
+        font-size: medium;
+        margin: 0%;
+        font-style: italic;
+        color: black;
+        
+
+    }
+    .container{
+      padding: 10px;
+      background-color: gray;
+      display:inline-flex;
+      flex-direction: row;
+      height: auto;
+      gap:10px;
+      align-items: flex-start;
+      align-content: center;
+      justify-content: flex-start;
+
+    }
+    li{
+      list-style: none;
+      color: black;
+    }
+   h1{
+    color: black;
+   }
+   h2{
+    color: black;
+   }
+            
+        </style>
+        <div class="green-solution">
+        <h1>We are a Creative<br>Design Agency</h1>
+        <img src="green-solution.jpg" alt="Beauty" width="200" height="200">
+        <h2>Beauty</h2>
+        <p>  Nature, nothing is perfect and everything is perfect.<br> 
+            Trees can be contorted,
+             bent in weird ways, and they're still beautiful.<br>
+             
+             Look deep into nature, and then you will understand everything better.
+             Nature has been found to have a calming quality on our stress levels.<br>  
+                Beautiful natural surroundings and scenery can feel like worlds away from our home and work life and consequently causes us to put any associated stress on the back burner.
+        </p>
+    </div>
+
+    <div class="construction-work">
+        <img src="construction-work.jpg" alt="Constructor" width="200" height="200">
+        <h2>Construction</h2>
+        <p>  Construction is a general term meaning the art and science to form objects, systems, 
+            or organizations,[1] and comes from Latin constructio (from com- "together" and struere "to pile up") 
+            and Old French construction.[2] To construct is the verb: the act of building,
+             and the noun is construction: how something is built, the nature of its structure.</p>
+    </div>
+   <footer><a href="contact me.html"><strong><h2 class="black-text">Contact Me</h2></strong></a></footer>
+   
+    </head>
+</html>
